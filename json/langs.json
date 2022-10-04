@@ -28,5 +28,10 @@
     "id":"pt",
     "name":"Português (Not finished)",
     "authors": "<li> <a href=\"https://github.com/TheGhostOfInky\" >TheGhostOfInky</a></li>"
+  },
+  {
+    "id":"nl",
+    "name":"Dutch (Not finished)",
+    "authors": "<li> <a href=\"https://github.com/justlucdewit\" >justlucdewit</a></li>"
   }
 ]

@@ -1,0 +1,678 @@
+{
+  "private_property": {
+    "question": "Moet prive eigendom bestaan?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "theo",
+      "no": "market"
+    }
+  },
+  "theo": {
+    "question": "Moet de samenleving worden geleid door tussenpersonen van een god?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "theocracy"
+    },
+    "nextquestion": {
+      "no": "distributism"
+    }
+  },
+  "distributism": {
+    "question": "Moet privé-eigendom zo breed mogelijk in eigendom worden gemaakt?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "distributism"
+    },
+    "nextquestion": {
+      "no": "conditional_land_ownership"
+    }
+  },
+  "conditional_land_ownership": {
+    "question": "Moet land eigendom conditioneel of onconditioneel zijn?",
+    "answers": [
+      "conditional",
+      "unconditional"
+    ],
+    "results": {},
+    "nextquestion": {
+      "conditional": "scope_of_government2",
+      "unconditional": "scope_of_government1"
+    }
+  },
+  "scope_of_government1": { 
+    "question": "Moet de overheid gelimiteerd zijn?",
+    "answers": [
+      "yes",
+      "no",
+      "nostate"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "watchman_state",
+      "no": "tradvals",
+      "nostate": "counter_economics"
+    }
+  },
+  "watchman_state": {
+    "question": "Moet de overheid puur een nachtwakersstaat zijn?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "minarch"
+    },
+    "nextquestion": {
+      "no": "welfare"
+    }
+  },
+  "welfare": {
+    "question": "Moet er een focus zijn om benadeelden te helpen?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "welfare_needed",
+      "no": "limited_gov_tradvals"
+    }
+  },
+  "welfare_needed": {
+    "question": "Is een sociaal vangnet nodig om benadeelden te helpen binnen een markt economie?",
+    "answers": [
+      "welfare",
+      "noneed"
+    ],
+    "results": {
+      "welfare": "socbert",
+      "noneed": "bhl"
+    },
+    "nextquestion": {}
+  },
+  "limited_gov_tradvals": {
+    "question": "Denk je dat een meer gelimiteerde overheid zal leiden naar meer traditionele waardes?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "paleobert",
+      "no": "libert"
+    },
+    "nextquestion": {}
+  },
+  "tradvals": {
+    "question": "In je ideale samenleving, zouden traditionele waardes omhooggehouden worden?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "tradauthstate",
+      "no": "govbasicneeds"
+    }
+  },
+  "tradauthstate": {
+    "question": "Vindt je een authoritaire staat nodig om de waardes van een soeverein land te bewaken?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "corp_cap",
+      "no": "strong_safety_net"
+    }
+  },
+  "corp_cap": {
+    "question": "Moet de overheid kapitalisme of Corporatisme omarmen?",
+    "answers": [
+      "capitalism",
+      "corporatism"
+    ],
+    "results": {},
+    "nextquestion": {
+      "capitalism": "markreg",
+      "corporatism": "unions_vs_state"
+    }
+  },
+  "markreg": {
+    "question": "Moet de markt sterk gereguleerd zijn?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "socnat",
+      "no": "nazcap"
+    },
+    "nextquestion": {}
+  },
+  "unions_vs_state": {
+    "question": "Moet de economie georganiseerd zijn door unies of de staat?",
+    "answers": [
+      "unions",
+      "state"
+    ],
+    "results": {
+      "unions": "natsynd"
+    },
+    "nextquestion": {
+      "state": "clergygov"
+    }
+  },
+  "clergygov": {
+    "question": "Moet geestelijkheid een rol spelen binnen de overheid?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "clerfash"
+    },
+    "nextquestion": {
+      "no": "racesuperior"
+    }
+  },
+  "racesuperior": {
+    "question": "Vindt je jou ras superieur aan anderen?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "nazi",
+      "no": "fascism"
+    },
+    "nextquestion": {}
+  },
+  "strong_safety_net": {
+    "question": "Moet er een sterk sociaal vangnet zijn voor de benadeelden in de samenleving?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "patcon"
+    },
+    "nextquestion": {
+      "no": "intervgov"
+    }
+  },
+  "intervgov": {
+    "question": "Mag een overheid ingrijpen in een oorlog die niet direct de nationale soevereiniteit in gevaar brengt?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "neocon",
+      "no": "paleocon"
+    },
+    "nextquestion": {}
+  },
+  "govbasicneeds": {
+    "question": "Moet de overheid basis benodigdheden geven aan zijn burgers?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "socdem"
+    },
+    "nextquestion": {
+      "no": "econreg"
+    }
+  },
+  "econreg": {
+    "question": "Moet de economie sterker gereguleerd worden?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "lib",
+      "no": "neolib"
+    },
+    "nextquestion": {}
+  },
+  "counter_economics": {
+    "question": "Moet contra economie een centrale rol spelen in het verkrijgen van jou ideale samenleving?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "agorism"
+    },
+    "nextquestion": {
+      "no": "coop_ancap"
+    }
+  },
+  "coop_ancap": {
+    "question": "Denk je dat een samenleving die compleet ongereguleerd is, en staatsloos is zal leiden tot een markt die gedomineerd wordt door co-operatives?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "leftroth",
+      "no": "ancap"
+    },
+    "nextquestion": {}
+  },
+  "scope_of_government2": {
+    "question": "Moet de scope van de overheid gelimiteerd zijn?",
+    "answers": [
+      "yes",
+      "no",
+      "nostate"
+    ],
+    "results": {
+      "yes": "geolib",
+      "nostate": "angeo"
+    },
+    "nextquestion": {
+      "no": "landwelfare"
+    }
+  },
+  "landwelfare": {
+    "question": "Moet de opbrengts van land waarde belasting primair naar een sociaal vangnet gaan?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "socgeo",
+      "no": "georgism"
+    },
+    "nextquestion": {}
+  },
+  "market": {
+    "question": "Moeten markt mechanismes de verdeling van goederen bepalen?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "statesoc",
+      "no": "marx"
+    }
+  },
+  "statesoc": {
+    "question": "Er moet een sterke authoritaire staat zijn om de arbeiders klasse te beschermen van andere landen",
+    "answers": [
+      "yes",
+      "no",
+      "nostate"
+    ],
+    "results": {
+      "yes": "tito",
+      "no": "marksoc"
+    },
+    "nextquestion": {
+      "nostate": "mutualaid"
+    }
+  },
+  "mutualaid": {
+    "question": "De economie zou gebaseerd moeten zijn rond het concept van wederzijdse hulp",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "no": "lwma"
+    },
+    "nextquestion": {
+      "yes": "racism"
+    }
+  },
+  "racism": {
+    "question": "Moeten samenlevingen bestaan uit etnisch homogene groepen?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "natan",
+      "no": "mutualism"
+    },
+    "nextquestion": {}
+  },
+  "marx": {
+    "question": "Zou het doel van de samenleving moeten zijn om naar een klasse loze, geldloze, en staatsloze samenleving te transitioneren?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "transstate",
+      "no": "techno"
+    }
+  },
+  "transstate": {
+    "question": "Is een transitionele staat nodig om dit doel te behalen?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "soc_directstate1",
+      "no": "labvouch"
+    }
+  },
+  "soc_directstate1": {
+    "question": "Zouden de arbeiders direct de controle moeten hebben over de productie middelen tijdens deze periode, of moet de staat deze controle hebben?",
+    "answers": [
+      "workers",
+      "state"
+    ],
+    "results": {},
+    "nextquestion": {
+      "workers": "rev_ed",
+      "state": "vanguard"
+    }
+  },
+  "vanguard": {
+    "question": "Is er een voorhoedepartij nodig om de werkende klasse te begeleiden naar de revolutie?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "no": "orthmarx"
+    },
+    "nextquestion": {
+      "yes": "vanguard_ed"
+    }
+  },
+  "vanguard_ed": {
+    "question": "Zou de rol van de voorhoede partij moeten zijn om educatie te brengen? in plaats van een vorm van politieke leiderschap.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "castro"
+    },
+    "nextquestion": {
+      "no": "cultural_revolution"
+    }
+  },
+  "cultural_revolution": {
+    "question": "Moet er een culturele revolutie komen om reactionaire gedachtes uit de samenleving te verbannen?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "3worlds",
+      "no": "socinone"
+    }
+  },
+  "3worlds": {
+    "question": "Ben je het eens met de drie werelden theorie van mao zedong?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "no": "mlm"
+    },
+    "nextquestion": {
+      "yes": "nep"
+    }
+  },
+  "nep": {
+    "question": "Denk je dat er een multi generationele stap van staats kapitalisme nodig is om de economie voor te bereiden voor socialisme?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "deng",
+      "no": "mao"
+    },
+    "nextquestion": {}
+  },
+  "socinone": {
+    "question": "Denk je dat socialisme behaald kan worden binnen een natiestaat?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "aboveall1",
+      "no": "posadism"
+    }
+  },
+  "aboveall1": {
+    "question": "Denk je dat de natiestaat het belangrijkste van alles zou moeten zijn?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "nazbol",
+      "no": "ml"
+    },
+    "nextquestion": {}
+  },
+  "posadism": {
+    "question": "Denk je dat een apocaliptisch evenement nodig is om socialisme te behalen?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "posadism",
+      "no": "trot"
+    },
+    "nextquestion": {}
+  },
+  "rev_ed": {
+    "question": "Zou er een revolutionaire partij moeten zijn om de massa te educateren voor en na de revolutie?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {},
+    "nextquestion": {
+      "yes": "synd1",
+      "no": "mediabad"
+    }
+  },
+  "synd1": {
+    "question": "Moet de samenleving georganiseerd worden via unies?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "deleon"
+    },
+    "nextquestion": {
+      "no": "centplan"
+    }
+  },
+  "centplan": {
+    "question": "Zou de economie centraal geplanned moeten zijn?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "bordiga",
+      "no": "luxem"
+    },
+    "nextquestion": {}
+  },
+  "mediabad": {
+    "question": "Is de massa media je centrale probleem met kapitalisme?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "situationist",
+      "no": "councom"
+    },
+    "nextquestion": {}
+  },
+  "labvouch": {
+    "question": "Moet de samenleving arbeidscheques hebben als compensatie voor arbeiders?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "ancol"
+    },
+    "nextquestion": {
+      "no": "agriculture"
+    }
+  },
+  "agriculture": {
+    "question": "Zou agricultuur beoefend moeten worden?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "no": "anprim"
+    },
+    "nextquestion": {
+      "yes": "synd2"
+    }
+  },
+  "synd2": {
+    "question": "Zou de samenleving georganiseerd moeten worden via unies?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "ansynd",
+      "no": "ancom"
+    },
+    "nextquestion": {}
+  },
+  "techno": {
+    "question": "Zou een staat en/of economy exclusief door experts moeten worden bestuurd?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "technocracy"
+    },
+    "nextquestion": {
+      "no": "electsoc"
+    }
+  },
+  "electsoc": {
+    "question": "Moet socialisme via electoralisme of revolutie worden behaald?",
+    "answers": [
+      "electoralism",
+      "revolution"
+    ],
+    "results": {
+      "electoralism": "demsoc"
+    },
+    "nextquestion": {
+      "revolution": "soc_directstate2"
+    }
+  },
+  "soc_directstate2": {
+    "question": "Zouden de arbeiders direct de controle moeten hebben over de productie middelen tijdens deze periode, of moet de staat deze controle hebben?",
+    "answers": [
+      "workers",
+      "state"
+    ],
+    "results": {},
+    "nextquestion": {
+      "workers": "agriculture_industrial",
+      "state": "esobullshit"
+    }
+  },
+  "esobullshit": {
+    "question": "Zou klasse/natiestaat de enige politieke onderwerpen voor discussie moeten zijn, of moet het Dasein (menselijke essentie) zijn?",
+    "answers": [
+      "dasein",
+      "classnation"
+    ],
+    "results": {
+      "dasein": "4theory"
+    },
+    "nextquestion": {
+      "classnation": "bankjews"
+    }
+  },
+  "bankjews": {
+    "question": "Geloof je dat de bron van de economische problemen van arbeiders komt door joodse bankieren?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "strasser"
+    },
+    "nextquestion": {
+      "no": "aboveall2"
+    }
+  },
+  "aboveall2": {
+    "question": "Denk je dat de natiestaat het belangrijkste van alles zou moeten zijn?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "nazbol",
+      "no": "statesoc"
+    },
+    "nextquestion": {}
+  },
+  "agriculture_industrial": {
+    "question": "Zou de samenleving meer op agricultuur moeten focussen dan industrialisatie?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "agsoc"
+    },
+    "nextquestion": {
+      "no": "synd3"
+    }
+  },
+  "synd3": {
+    "question": "Moet de samenleving georganiseerd worden via unies?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "synd",
+      "no": "libsoc"
+    },
+    "nextquestion": {}
+  }
+}

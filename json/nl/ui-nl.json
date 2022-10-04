@@ -1,0 +1,18 @@
+{
+  "index":{
+    "title": "Ideosorter",
+    "text": "<h2>Wat is Ideosorter?</h2><p>Ideosorter is, in essentie, a politieke quiz die probeert om je ideologie te bepalen op basis van wat je standpunten het beste matched door middel van een flowchart model. Deze quiz zal je dan onderverdelen in een van de <span id='ideo_lenght'></span> verschillende ideologieen gebaseerd op de antwoorden op de vragen; misschien dat je iets nieuws ontdekt dat je nog niet wist over jezelf! </p><h2>Ik snap de vragen niet!</h2><p>Als er iets is wat je niet begrijpt, we hebben geprobeerd om alle terminologie zo makkelijk mogelijk op te zoeken te maken, als het door middel van online opzoeken nogsteeds onduidelijk is, laat het ons weten zodat we veranderingen kunnen maken aan de vragen!</p><h2>Ik haat mijn gematchte ideologie!</h2><p>¯\\_(ツ)_/¯</p>",
+    "start": "Klik om te beginnen!",
+    "contacts": "Contact gegevens:",
+    "contact_info": "<p>TheGhostOfInky#9229</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">GitHub Pagina</a></p>"
+  },
+  "quiz":{
+    "title": "Ideosorter - Quiz",
+    "back": "Terug"
+  },
+  "results":{
+    "title": "Ideosorter - Resultaten",
+    "back": "Terug naar index",
+    "credits": "Credits"
+  }
+}

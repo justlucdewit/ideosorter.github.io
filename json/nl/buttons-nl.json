@@ -1,0 +1,82 @@
+{
+  "yes": {
+    "text": "Ja",
+    "bgcolor": "#14e371",
+    "textcolor": "#000"
+  },
+  "no": {
+    "text": "Nee",
+    "bgcolor": "#e3144f",
+    "textcolor": "#000"
+  },
+  "nostate": {
+    "text": "The staat zou niet moeten bestaan",
+    "bgcolor": "#111",
+    "textcolor": "#fff"
+  },
+  "conditional": {
+    "text": "Conditioneel",
+    "bgcolor": "#50e024",
+    "textcolor": "#000"
+  },
+  "unconditional": {
+    "text": "On conditioneel",
+    "bgcolor": "#f0cb11",
+    "textcolor": "#000"
+  },
+  "capitalism": {
+    "text": "Kapitalisme",
+    "bgcolor": "#f0cb11",
+    "textcolor": "#000"
+  },
+  "corporatism": {
+    "text": "Corporatisme",
+    "bgcolor": "#704d23",
+    "textcolor": "#fff"
+  },
+  "workers": {
+    "text": "Arbeiders",
+    "bgcolor": "#e3144f",
+    "textcolor": "#000"
+  },
+  "unions": {
+    "text": "Unies",
+    "bgcolor": "#e3144f",
+    "textcolor": "#000"
+  },
+  "state": {
+    "text": "Staat",
+    "bgcolor": "#2462ad",
+    "textcolor": "#000"
+  },
+  "electoralism": {
+    "text": "Electoralisme",
+    "bgcolor": "#c47112",
+    "textcolor": "#000"
+  },
+  "revolution": {
+    "text": "Revolutie",
+    "bgcolor": "#f0cb11",
+    "textcolor": "#000"
+  },
+  "welfare": {
+    "text": "Sociaal vangnet",
+    "bgcolor": "#f0cb11",
+    "textcolor": "#000"
+  },
+  "noneed": {
+    "text": "Niet nodig",
+    "bgcolor": "#50e024",
+    "textcolor": "#000"
+  },
+  "dasein": {
+    "text": "Dasein",
+    "bgcolor": "#111",
+    "textcolor": "#fff"
+  },
+  "classnation": {
+    "text": "Klasse/Natie",
+    "bgcolor": "#821212",
+    "textcolor": "#fff"
+  }
+}
